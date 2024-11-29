@@ -15,6 +15,7 @@ const userRoutes = require("./routes/user/user.route");
 const api = require("./routes/api");
 
 const app = express();
+console.log("hellow");
 
 app.use(helmet());
 
