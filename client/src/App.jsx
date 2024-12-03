@@ -1,10 +1,10 @@
+import React from "react";
+import Home from "../src/components/page";
 
 function App() {
-  
-
-  return (
-    <h1>React Tic-Tac-Toe</h1>
-  )
+  return <div className="App">
+    <Home/>
+  </div>;
 }
 
-export default App
+export default App;
