@@ -1,6 +1,7 @@
 import Button from "./Button";
 import SwingFigure from "./SwingFigure";
 import React, { useState, useEffect } from "react";
+import Navbar from "./Navbar";
 
 const Header = () => {
   const [isMenuVisible, setIsMenuVisible] = useState(false);
@@ -22,16 +23,18 @@ const Header = () => {
   }, []);
   return (
     <div>
+      <SwingFigure/>
       {/* NavBar */}
-      <nav className="p-3 flex bg-gray-100 justify-between items-center">
+      <nav className="p-3 flex bg-gray-300 justify-around items-center">
         <a href="#" id="brand" className="flex gap-2 items-center">
           <img
-            src="/Automobile.png"
+            src="/Logo.png"
             alt="
             Logo"
             className=" object-cover max-w-24 max-h-16"
             />
-          <span className="text-3xl font-bold font-serif">AutoMobile</span>
+          <span className="text-3xl font-bold font-serif text-yellow-200">Azeem</span>
+          <span className="text-3xl font-bold font-serif">Autos</span>
         </a>
             
         {/* navmenu */}
