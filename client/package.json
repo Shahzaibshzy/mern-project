@@ -10,6 +10,16 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@fortawesome/duotone-light-svg-icons": "^6.7.1",
+    "@fortawesome/duotone-regular-svg-icons": "^6.7.1",
+    "@fortawesome/duotone-thin-svg-icons": "^6.7.1",
+    "@fortawesome/fontawesome-svg-core": "^6.7.1",
+    "@fortawesome/free-brands-svg-icons": "^6.7.1",
+    "@fortawesome/free-regular-svg-icons": "^6.7.1",
+    "@fortawesome/free-solid-svg-icons": "^6.7.1",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "@headlessui/react": "^2.2.0",
+    "@heroicons/react": "^2.2.0",
     "autoprefixer": "^10.4.20",
     "flowbite": "^2.5.2",
     "postcss": "^8.4.49",
