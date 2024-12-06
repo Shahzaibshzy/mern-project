@@ -25,7 +25,7 @@ const Header = () => {
     <div>
       <SwingFigure/>
       {/* NavBar */}
-      <nav className="p-3 flex bg-gray-300 justify-around items-center">
+      <nav className="p-3 flex bg-gray-400 justify-around items-center">
         <a href="#" id="brand" className="flex gap-2 items-center">
           <img
             src="/Logo.png"
@@ -39,16 +39,16 @@ const Header = () => {
             
         {/* navmenu */}
         <div id="nav-menu " className="hidden lg:flex gap-24 ">
-          <a href="#" className="font-bold hover:text-red-700">
+          <a href="#" className="font-bold hover:text-yellow-400 transition-all duration-300">
             Home
           </a>
-          <a href="#" className="font-bold hover:text-red-700">
+          <a href="#" className="font-bold hover:text-yellow-400 transition-all duration-300">
             Product
           </a>
-          <a href="#" className="font-bold hover:text-red-700">
+          <a href="#" className="font-bold hover:text-yellow-400 transition-all duration-300">
             About
           </a>
-          <a href="#" className="font-bold hover:text-red-700">
+          <a href="#" className="font-bold hover:text-yellow-400 transition-all duration-300">
             Contact
           </a>
         </div>
@@ -75,8 +75,9 @@ const Header = () => {
         </button>
         <div
           id="nav-dial"
-          className={`fixed z-10 md:hidden bg-white inset-0 p-3 transform transition-transform duration-500 ${
-            isMenuVisible ? "translate-y-0" : "-translate-y-full"
+          className={`fixed z-10 md:hidden bg-white inset-0 p-3 
+            transform transition-transform duration-500 ${
+            isMenuVisible ? "translate-x-0" : "-translate-x-full"
           }`}
         >
           <div id="nav-bar" className="flex justify-between">
@@ -110,28 +111,28 @@ const Header = () => {
             {" "}
             <a
               href="#"
-              className="font-medium m-3 p-3 hover:bg-gray-300 block rounded-lg"
+              className="font-medium m-3 p-3 hover:bg-gray-300 block rounded-lg transition-all duration-300"
             >
               {" "}
               Home
             </a>
             <a
               href="#"
-              className="font-medium m-3 p-3 hover:bg-gray-300 block rounded-lg"
+              className="font-medium m-3 p-3 hover:bg-gray-300 block rounded-lg transition-all duration-300"
             >
               {" "}
               Product
             </a>
             <a
               href="#"
-              className="font-medium m-3 p-3 hover:bg-gray-300 block rounded-lg"
+              className="font-medium m-3 p-3 hover:bg-gray-300 block rounded-lg transition-all duration-300"
             >
               {" "}
               About
             </a>
             <a
               href="#"
-              className="font-medium m-3 p-3 hover:bg-gray-300 block rounded-lg"
+              className="font-medium m-3 p-3 hover:bg-gray-300 block rounded-lg transition-all duration-300"
             >
               {" "}
               Contact

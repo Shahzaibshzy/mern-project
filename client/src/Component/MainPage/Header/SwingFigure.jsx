@@ -1,4 +1,4 @@
-import img from "../../../public/banner.png"
+
 const SwingFigure = () => {
   return (
     <figure className="hidden lg:flex absolute top-0 left-1/3 transform -translate-x-1/2 z-50">
